@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0%;
+
+}
+.container{
+    width: 80%;
+    padding: 34px;
+    margin: auto;
+}
+.container h1{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+input, textarea{
+    width: 80%;
+    margin: 10px auto;
+    padding: 7px;
+    font-size: 18px;
+    border: solid black;
+    border-radius: 6px;
+    outline: none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    color: white;
+    padding: 15px 10px;
+    font: 20px;
+    background-color: purple;
+    border: 2px white;
+    border-radius: 15px;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 1.6;
+
+}
+.submit{
+    color: rgb(9, 245, 9);
+}
